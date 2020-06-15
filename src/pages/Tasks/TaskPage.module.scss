@@ -1,0 +1,12 @@
+@import "thems/_buttons.scss";
+
+.page {
+    position: relative;
+}
+
+.add__button {
+    @extend .button__green;
+    position: absolute;
+    top: 0;
+    right: 0;
+}

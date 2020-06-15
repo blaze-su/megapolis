@@ -1,0 +1,48 @@
+@import "thems/_colors.scss";
+
+
+.item {
+    display: flex;
+    width: 100%;
+    border: 1px solid $greyBorder;
+    border-bottom: none;
+
+    &:last-child {
+        border: 1px solid $greyBorder;   
+    }
+}
+
+.title, .description, .actions {
+    padding: 10px 20px;
+    color: $text;
+}
+
+.title {
+    border-right: 1px solid $greyBorder;
+    min-width: 180px ;
+    line-height: 24px;
+}
+
+.description {
+    line-height: 24px;
+    flex-grow: 1000;
+    border-right: 1px solid $greyBorder;
+}
+
+.actioins {
+    min-width: 100px ; 
+}
+
+.btn {
+    border: 0;
+    outline: 0;
+    background: none;
+}
+
+.icon {
+    height: 22px;
+    width: auto;
+}
+
+
+

@@ -1,0 +1,35 @@
+@import "thems/_colors.scss";
+
+.button {
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    min-width: 148px;
+    background: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+.button__blue {
+    @extend .button;
+    display: inline-block;
+    border: 1px solid $blue;
+    color: $text;
+    &:hover {
+        background: $blue;
+        color: white;
+    }
+}
+
+.button__green {
+    @extend .button;
+    display: inline-block;
+    border: 1px solid $green;
+    color: $text;
+    &:hover {
+        background: $green;
+        color: white;
+    }
+}
